@@ -1,11 +1,11 @@
 clc;
 clear all;
 close all;
-% Define the parameters
+%/ Define the parameters
 T = 1/10; % Period of the sawtooth wave (fundamental frequency 10 Hz)
 t = linspace(0, 1, 1000); % Time vector
 
-%/ Define the sawtooth wave function with amplitude 1 V
+% Define the sawtooth wave function with amplitude 1 V
 x = @(t) sawtooth(2*pi/T*t);
 
 % Plot the sawtooth wave signal
