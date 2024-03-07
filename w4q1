@@ -1,7 +1,7 @@
 clc;
 clear all;
 close all;
-// Define the parameters
+% Define the parameters
 T = 1/10; % Period of the sawtooth wave (fundamental frequency 10 Hz)
 t = linspace(0, 1, 1000); % Time vector
 
@@ -31,7 +31,7 @@ title('Frequency Domain Representation of Sawtooth Wave Signal');
 grid on;
 xlim([-100,100]);
 
-/% Define the carrier frequency and modulation index
+% Define the carrier frequency and modulation index
 fc = 100; % Carrier frequency in Hz
 fm = 10; % Modulating frequency in Hz
 m = 1; % Modulation index
