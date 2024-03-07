@@ -5,7 +5,7 @@ close all;
 T = 1/10; % Period of the sawtooth wave (fundamental frequency 10 Hz)
 t = linspace(0, 1, 1000); % Time vector
 
-% Define the sawtooth wave function with amplitude 1 V
+%/ Define the sawtooth wave function with amplitude 1 V
 x = @(t) sawtooth(2*pi/T*t);
 
 % Plot the sawtooth wave signal
@@ -31,7 +31,7 @@ title('Frequency Domain Representation of Sawtooth Wave Signal');
 grid on;
 xlim([-100,100]);
 
-% Define the carrier frequency and modulation index
+/% Define the carrier frequency and modulation index
 fc = 100; % Carrier frequency in Hz
 fm = 10; % Modulating frequency in Hz
 m = 1; % Modulation index
